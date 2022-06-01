@@ -4,11 +4,36 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: #f8e9dd;
+}
+.container {
+  width: 30%;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.balance,
+.spending {
+  border-radius: 1em;
+}
+.balance {
+  background-color: #ec775f;
+  color: #fffaf5;
+  border: 1px solid;
+}
+.spending {
+  background-color: #fffaf5;
+  border: 1px solid;
+  color: #382314;
+}
 /* Attribution Styling */
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3e52a3;
 }
