@@ -1,3 +1,5 @@
+/* Adding DM Sans font */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 /* Global Reset */
 * {
   box-sizing: border-box;
@@ -6,6 +8,7 @@
 }
 body {
   background-color: #f8e9dd;
+  font-family: "DM Sans", sans-serif;
 }
 .container {
   width: 30%;
@@ -18,21 +21,24 @@ body {
 .balance,
 .spending {
   border-radius: 1em;
+  padding: 1em 1.5em;
 }
 .balance {
   background-color: #ec775f;
   color: #fffaf5;
-  border: 1px solid;
 }
 .spending {
   background-color: #fffaf5;
-  border: 1px solid;
   color: #382314;
 }
 /* Attribution Styling */
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .attribution a {
   color: #3e52a3;
