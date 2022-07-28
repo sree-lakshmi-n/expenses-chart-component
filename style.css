@@ -21,7 +21,7 @@ body {
 .balance,
 .spending {
   border-radius: 1em;
-  padding: 1em 1.5em;
+  padding: 1.2em 1.5em;
 }
 .balance {
   background-color: #ec775f;
@@ -30,6 +30,18 @@ body {
 .spending {
   background-color: #fffaf5;
   color: #382314;
+}
+/* Balance components layout */
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-heading {
+  margin-bottom: 0.2em;
+}
+.balance-amount {
+  font-size: 1.6em;
+  font-weight: bold;
 }
 /* Attribution Styling */
 .attribution {
@@ -42,4 +54,13 @@ body {
 }
 .attribution a {
   color: #3e52a3;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  .balance,
+  .spending {
+    padding: 1.2em 1em;
+  }
 }
